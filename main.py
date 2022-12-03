@@ -87,7 +87,7 @@ label_file_explorer = Label(window,
 label_file_explorer.place(x=450, y=250)
 
 button_explore = Button(window,
-                        text="Submit", fg="white", bg="black", font=("Droid Sans Mono italic", 10, "bold"), width=10,
+                        text="Submit", fg="white", bg="black", font=("Droid Sans Mono italic", 10, "bold"), width=10,command=browseFiles
                         )
 button_explore.place(x=470, y=500)
 
